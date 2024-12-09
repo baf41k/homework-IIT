@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Метаданные документа, такие как кодировка и инструкции для браузеров -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+    <!-- Подключение внешнего файла стилей -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Иконка для вкладки браузера -->
+    <link rel="icon" href="assets/images/favicon.ico">
+
+    
+    <!-- Заголовок страницы для отображения на вкладке браузера -->
+    <title>NASA - Audio</title>
+</head>
+<body>
+    <!-- Шапка страницы с основным заголовком -->
+    <header>
+        <h1>NASA Audio</h1>
+    </header>
+
+    <!-- Панель навигации с одной ссылкой на главную страницу -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li> <!-- Ссылка на главную страницу -->
+        </ul>
+    </nav>
+
+    <!-- Основное содержимое страницы -->
+    <main>
+        <h2>Listen to Sounds from Space</h2>
+        <!-- Элемент для воспроизведения аудиофайла с контролами (воспроизведение, пауза и т.д.) -->
+        <audio controls>
+            <source src="assets/audio/nasa_sound.mp3" type="audio/mpeg">
+
+        </audio>
+
+        <!-- Кнопка для возврата на главную страницу с помощью ссылки -->
+        <button onclick="window.location.href='http://localhost:8080/index.html';">Home</button>
+    </main>
+
+    <!-- Боковая панель с дополнительной информацией -->
+    <aside>
+        <p>NASA news and more.</p>
+    </aside>
+
+    <!-- Подвал страницы с копирайтом -->
+    <footer>
+        <p>NASA © 2024</p>
+    </footer>
+</body>
+</html>
